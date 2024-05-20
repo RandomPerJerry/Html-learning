@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>This is my first HTML programe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>This is my first HTML program</title>
     </head>
-    <body style="background-color:gray;">
+    <body id="main">
         <main>
-            <h1 style="background-color: blue; text-align: center;">About Me</h1>
-            <p style="font-family: 'Times New Roman', Times, serif;">Hello, I am Jerry. I am currently in Grade 11 and learning about creating projects</p>
-            <p>I am learning to code in HTML, CSS and JavaScript</p>
-
+            <section class="container">
+                <h1>About Me</h1>
+                <p>Hello, I am Jerry. I am currently in Grade 11 and learning about creating projects</p>
+                <p>I am learning to code in HTML, CSS and JavaScript</p>
+            </section>
             <hr>
-
-            <h2 style="border:20px solid salmon;">These sites are were i am learning</h2>
-            <!-- Free Code camp  -->
-            <p>1. <b>freecodecamp</b>: <a href="https://www.freecodecamp.org">FreeCodeCamp.org</a></p>
-            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8yGgP_VL2pzbE20Vc24libg2oS9vWWi1B2g6XwWzLkQ&s"
-            alt="freecodecamp" width="134" height="142">
-            <br>
-            <!-- w3schools -->
-            <p>2. <b>w3schools</b>: <a href="https://www.w3schools.com/">w3schools.com</a></p>
-            <img src="https://yt3.googleusercontent.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj" 
-            alt="w3schools.com" width="134" height="142">
-
+            <section class="container">
+                <h2>These sites are where I am learning</h2>
+                <!-- Free Code camp  -->
+                <p>1. <b>freecodecamp</b>: <a href="https://www.freecodecamp.org">FreeCodeCamp.org</a></p>
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8yGgP_VL2pzbE20Vc24libg2oS9vWWi1B2g6XwWzLkQ&s"
+                alt="freecodecamp" width="134" height="142">
+                <br>
+                <!-- w3schools -->
+                <p>2. <b>w3schools</b>: <a href="https://www.w3schools.com/">w3schools.com</a></p>
+                <img src="https://yt3.googleusercontent.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj" 
+                alt="w3schools.com" width="134" height="142">
+            </section>
             <hr>
-
-            <pre>
-                <h3 style="color: yellow;">My Goals</h3>
-                <ul>
+            <section class="container">
+                <h3>My Goals</h3>
+                <ol>
                     <li>Learn HTML</li>
                     <li>Learn CSS</li>
                     <li>Learn JavaScript</li>
                     <li>Learn Python</li>
                     <li>Learn Java</li>
-                </ul>
-            </pre>
-
-            <i>Itailisize text</i>
-            <em>Emphasize text</em>
-            
+                </ol>
+            </section>
+            <section class="container">
+                <i>Italicize text</i>
+                <em>Emphasize text</em>
+                <strong>Strong text</strong>
+                <b>Bold text</b>
+                <small>Small text</small>
+                <del>Deleted text</del>
+                <ins>Inserted text</ins>
+                <sub>Subscript text</sub>
+                <sup>Superscript text</sup>
+            </section>
         </main>
     </body>
 </html>

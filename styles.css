@@ -1,0 +1,21 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main {
+    background-color: gray;
+}
+h1 {
+    background-color: blue; 
+    text-align: center;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    border:20px solid salmon;
+}
+h3 {
+    color: yellow;
+}
